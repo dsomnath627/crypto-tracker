@@ -1,7 +1,7 @@
 import CryptoTable from "@/components/CryptoTable";
 
 export default function Home() {
-  
+
   return (
     <main className="container">
       <nav className="flex flex-col items-center space-y-4 w-full py-20 bg-blue-100">
@@ -9,8 +9,7 @@ export default function Home() {
         <p className="text-sm text-center">Get latest crypto data here.</p>
       </nav>
       <div className="mt-10 max-w-4xl mx-auto">
-
-      <CryptoTable />
+        <CryptoTable />
       </div>
     </main>
   );
